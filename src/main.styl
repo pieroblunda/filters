@@ -1,0 +1,114 @@
+// out: ../pbfiltr.min.css, sourcemap false, compress true
+figure
+  &.pbFiltr
+    position relative
+    &::before
+      content ""
+      position absolute
+      display block
+      height 100%
+      width 100%
+      top 0
+      left 0
+    &.roma // .cssFiltersco-1977
+      filter contrast(110%) brightness(110%) saturate(130%)
+      &:before
+        mix-blend-mode overlay
+        background rgba(243, 106, 188, 0.3)
+    &.siena // .aden
+      filter contrast(90%) brightness(120%) saturate(85%) hue-rotate(20deg)
+      &:before
+        mix-blend-mode darken
+        background linear-gradient(to right, rgba(66, 10, 14, 0.2) 1, rgba(66, 10, 14, 0))
+    &.bologna // .amaro
+      filter contrast(90%) brightness(110%) saturate(150%) hue-rotate(-10deg)
+    &.torino // .brannan
+      filter contrast(140%) sepia(50%)
+      &:before
+        mix-blend-mode lighten
+        background rgba(161, 44, 199, 0.31)
+    &.pisa // .brooklyn
+      filter contrast(90%) brightness(110%)
+      &:before
+        mix-blend-mode overlay
+        background -webkit-radial-gradient(50% 50%, circle closest-corner, rgba(168, 223, 193, 0.4) 1, rgba(183, 196, 200, 0.2))
+        background radial-gradient(50% 50%, circle closest-corner, rgba(168, 223, 193, 0.4) 1, rgba(183, 196, 200, 0.2))
+    &.parma // .clarendon
+      filter contrast(120%) saturate(125%)
+      &:before
+        mix-blend-mode overlay
+        background rgba(127, 187, 227, 0.2)
+    &.catania // .earlybird
+      filter contrast(90%) sepia(20%)
+      &:before
+        mix-blend-mode overlay
+        background -webkit-radial-gradient(50% 50%, circle closest-corner, rgba(208, 186, 142, 1) 20, rgba(29, 2, 16, 0.2))
+        background radial-gradient(50% 50%, circle closest-corner, rgba(208, 186, 142, 1) 20, rgba(29, 2, 16, 0.2))
+    &.palermo // .gingham
+      filter brightness(105%) hue-rotate(350deg)
+      &:before
+        mix-blend-mode darken
+        background linear-gradient(to right, rgba(66, 10, 14, 0.2) 1, rgba(0, 0, 0, 0))
+    &.trapani // .hudson
+      filter contrast(90%) brightness(120%) saturate(110%)
+      &:before
+        mix-blend-mode multiply
+        opacity 0.5
+        background -webkit-radial-gradient(50% 50%, circle closest-corner, rgba(255, 177, 166, 1) 50, rgba(52, 33, 52, 1))
+        background radial-gradient(50% 50%, circle closest-corner, rgba(255, 177, 166, 1) 50, rgba(52, 33, 52, 1))
+    &.bari // .inkwell
+      filter contrast(110%) brightness(110%) sepia(30%) grayscale(100%)
+      &:before
+        background rgba(0, 0, 0, 0)
+    &.firenze // .lofi
+      filter contrast(150%) saturate(110%)
+      &:before
+        mix-blend-mode multiply
+        background -webkit-radial-gradient(50% 50%, circle closest-corner, rgba(0, 0, 0, 0) 70, rgba(34, 34, 34, 1))
+        background radial-gradient(50% 50%, circle closest-corner, rgba(0, 0, 0, 0) 70, rgba(34, 34, 34, 1))
+    &.imola // .maven
+      filter contrast(95%) brightness(95%) saturate(150%) sepia(25%)
+      &:before
+        mix-blend-mode hue
+        background rgba(3, 230, 26, 0.2)
+    &.verona // .perpetua
+      &:before
+        mix-blend-mode soft-light
+        opacity 0.5
+        background linear-gradient(to bottom, rgba(0, 91, 154, 1) 1, rgba(61, 193, 230, 0))
+    &.bolzano // .reyes
+      filter contrast(85%) brightness(110%) saturate(75%) sepia(22%)
+      &:before
+        mix-blend-mode soft-light
+        opacity 0.5
+        background rgba(173, 205, 239, 1)
+    &.sanseverino // .stinson
+      filter contrast(75%) brightness(115%) saturate(85%)
+      &:before
+        mix-blend-mode soft-light
+        background rgba(240, 149, 128, 0.2)
+    &.napoli // .toaster
+      filter contrast(150%) brightness(90%)
+      &:before
+        mix-blend-mode screen
+        opacity 0.5
+        background -webkit-radial-gradient(50% 50%, circle closest-corner, rgba(15, 78, 128, 1) 1, rgba(59, 0, 59, 1))
+        background radial-gradient(50% 50%, circle closest-corner, rgba(15, 78, 128, 1) 1, rgba(59, 0, 59, 1))
+    &.perugia // .walden
+      filter brightness(110%) saturate(160%) sepia(30%) hue-rotate(350deg)
+      &:before
+        mix-blend-mode screen
+        opacity 0.3
+        background rgba(204, 68, 0, 1)
+    &.lucca // .valencia
+      filter contrast(108%) brightness(108%) sepia(8%)
+      &:before
+        mix-blend-mode exclusion
+        opacity 0.5
+        background rgba(58, 3, 57, 1)
+    &.gagliole // .xpro2
+      filter sepia(30%)
+      &:before
+        mix-blend-mode color-burn
+        background -webkit-radial-gradient(50% 50%, circle closest-corner, rgba(224, 231, 230, 1) 40, rgba(43, 42, 161, 0.6))
+        background radial-gradient(50% 50%, circle closest-corner, rgba(224, 231, 230, 1) 40, rgba(43, 42, 161, 0.6))

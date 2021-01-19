@@ -1,0 +1,149 @@
+figure.pbFiltr {
+  position: relative;
+}
+figure.pbFiltr::before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+figure.pbFiltr.roma {
+  filter: contrast(110%) brightness(110%) saturate(130%);
+}
+figure.pbFiltr.roma:before {
+  mix-blend-mode: overlay;
+  background: rgba(243,106,188,0.3);
+}
+figure.pbFiltr.siena {
+  filter: contrast(90%) brightness(120%) saturate(85%) hue-rotate(20deg);
+}
+figure.pbFiltr.siena:before {
+  mix-blend-mode: darken;
+  background: linear-gradient(to right, rgba(66,10,14,0.2) 1, rgba(66,10,14,0));
+}
+figure.pbFiltr.bologna {
+  filter: contrast(90%) brightness(110%) saturate(150%) hue-rotate(-10deg);
+}
+figure.pbFiltr.torino {
+  filter: contrast(140%) sepia(50%);
+}
+figure.pbFiltr.torino:before {
+  mix-blend-mode: lighten;
+  background: rgba(161,44,199,0.31);
+}
+figure.pbFiltr.pisa {
+  filter: contrast(90%) brightness(110%);
+}
+figure.pbFiltr.pisa:before {
+  mix-blend-mode: overlay;
+  background: -webkit-radial-gradient(50% 50%, circle closest-corner, rgba(168,223,193,0.4) 1, rgba(183,196,200,0.2));
+  background: radial-gradient(50% 50%, circle closest-corner, rgba(168,223,193,0.4) 1, rgba(183,196,200,0.2));
+}
+figure.pbFiltr.parma {
+  filter: contrast(120%) saturate(125%);
+}
+figure.pbFiltr.parma:before {
+  mix-blend-mode: overlay;
+  background: rgba(127,187,227,0.2);
+}
+figure.pbFiltr.catania {
+  filter: contrast(90%) sepia(20%);
+}
+figure.pbFiltr.catania:before {
+  mix-blend-mode: overlay;
+  background: -webkit-radial-gradient(50% 50%, circle closest-corner, #d0ba8e 20, rgba(29,2,16,0.2));
+  background: radial-gradient(50% 50%, circle closest-corner, #d0ba8e 20, rgba(29,2,16,0.2));
+}
+figure.pbFiltr.palermo {
+  filter: brightness(105%) hue-rotate(350deg);
+}
+figure.pbFiltr.palermo:before {
+  mix-blend-mode: darken;
+  background: linear-gradient(to right, rgba(66,10,14,0.2) 1, rgba(0,0,0,0));
+}
+figure.pbFiltr.trapani {
+  filter: contrast(90%) brightness(120%) saturate(110%);
+}
+figure.pbFiltr.trapani:before {
+  mix-blend-mode: multiply;
+  opacity: 0.5;
+  background: -webkit-radial-gradient(50% 50%, circle closest-corner, #ffb1a6 50, #342134);
+  background: radial-gradient(50% 50%, circle closest-corner, #ffb1a6 50, #342134);
+}
+figure.pbFiltr.bari {
+  filter: contrast(110%) brightness(110%) sepia(30%) grayscale(100%);
+}
+figure.pbFiltr.bari:before {
+  background: rgba(0,0,0,0);
+}
+figure.pbFiltr.firenze {
+  filter: contrast(150%) saturate(110%);
+}
+figure.pbFiltr.firenze:before {
+  mix-blend-mode: multiply;
+  background: -webkit-radial-gradient(50% 50%, circle closest-corner, rgba(0,0,0,0) 70, #222);
+  background: radial-gradient(50% 50%, circle closest-corner, rgba(0,0,0,0) 70, #222);
+}
+figure.pbFiltr.imola {
+  filter: contrast(95%) brightness(95%) saturate(150%) sepia(25%);
+}
+figure.pbFiltr.imola:before {
+  mix-blend-mode: hue;
+  background: rgba(3,230,26,0.2);
+}
+figure.pbFiltr.verona:before {
+  mix-blend-mode: soft-light;
+  opacity: 0.5;
+  background: linear-gradient(to bottom, #005b9a 1, rgba(61,193,230,0));
+}
+figure.pbFiltr.bolzano {
+  filter: contrast(85%) brightness(110%) saturate(75%) sepia(22%);
+}
+figure.pbFiltr.bolzano:before {
+  mix-blend-mode: soft-light;
+  opacity: 0.5;
+  background: #adcdef;
+}
+figure.pbFiltr.sanseverino {
+  filter: contrast(75%) brightness(115%) saturate(85%);
+}
+figure.pbFiltr.sanseverino:before {
+  mix-blend-mode: soft-light;
+  background: rgba(240,149,128,0.2);
+}
+figure.pbFiltr.napoli {
+  filter: contrast(150%) brightness(90%);
+}
+figure.pbFiltr.napoli:before {
+  mix-blend-mode: screen;
+  opacity: 0.5;
+  background: -webkit-radial-gradient(50% 50%, circle closest-corner, #0f4e80 1, #3b003b);
+  background: radial-gradient(50% 50%, circle closest-corner, #0f4e80 1, #3b003b);
+}
+figure.pbFiltr.perugia {
+  filter: brightness(110%) saturate(160%) sepia(30%) hue-rotate(350deg);
+}
+figure.pbFiltr.perugia:before {
+  mix-blend-mode: screen;
+  opacity: 0.3;
+  background: #c40;
+}
+figure.pbFiltr.lucca {
+  filter: contrast(108%) brightness(108%) sepia(8%);
+}
+figure.pbFiltr.lucca:before {
+  mix-blend-mode: exclusion;
+  opacity: 0.5;
+  background: #3a0339;
+}
+figure.pbFiltr.gagliole {
+  filter: sepia(30%);
+}
+figure.pbFiltr.gagliole:before {
+  mix-blend-mode: color-burn;
+  background: -webkit-radial-gradient(50% 50%, circle closest-corner, #e0e7e6 40, rgba(43,42,161,0.6));
+  background: radial-gradient(50% 50%, circle closest-corner, #e0e7e6 40, rgba(43,42,161,0.6));
+}
